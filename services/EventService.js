@@ -11,7 +11,7 @@ if(bilgiler.Capasity<1){
 if (new Date(bilgiler.Date) < new Date()) {   //tarih kontrolü
         throw new Error("Geçmiş bir tarihe etkinlik oluşturulamaz");
     }
-if (bilgiler.location)
+if (bilgiler.Location)
 return await eventRepo.CreateEvent(bilgiler);
 
 };

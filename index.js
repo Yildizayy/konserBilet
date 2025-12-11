@@ -31,6 +31,8 @@ app.use(async (ctx, next) => {
 //    }
 //    return ctx
 //})
+app.use(TicketRoutes.routes());
+app.use(TicketRoutes.allowedMethods());
 app.use(EtkinlikRoutes.routes());
 app.use(EtkinlikRoutes.allowedMethods());
 app.use(UserRoutes.routes())

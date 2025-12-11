@@ -8,7 +8,7 @@ const EventsScheme = new mongoose.Schema({
     Location:
     {
         required: true,
-        type: String
+        type: String,
         enum:{
         values:izinVerilenSehirler,
         message: '{VALUE} geçerli bir şehir değil! Sadece şu şehirlerden birini seçebilirsiniz: ' + izinVerilenSehirler.join(', ')
