@@ -1,0 +1,28 @@
+{
+  "name": "koaapp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^6.0.0",
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^15.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "koa": "^3.1.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-helmet": "^8.0.1",
+    "koa-jwt": "^4.0.4",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
